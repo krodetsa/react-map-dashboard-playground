@@ -2,6 +2,10 @@
 
 A simple map component for your dashboard.
 
+## Demo
+
+[react-map-dashboard playground](https://react-map-dashboard-playground.vercel.app/)
+
 ## Usage
 
 ```sh
