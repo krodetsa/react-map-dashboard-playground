@@ -1,6 +1,7 @@
 {
   "name": "react-map-dashboard-playground",
   "version": "0.1.0",
+  "description": "React Map component with tooltip and other features",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -15,6 +16,10 @@
     "styled-components": "^6.1.0",
     "web-vitals": "^2.1.4",
     "zustand": "^4.4.4"
+  },
+  "repository": {
+    "type": "npm",
+    "url": "https://www.npmjs.com/package/react-map-dashboard"
   },
   "scripts": {
     "start": "react-scripts start",

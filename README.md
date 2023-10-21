@@ -4,6 +4,10 @@ A simple map component for your dashboard.
 
 ## Usage
 
+```sh
+npm install --save react-map-dashboard
+```
+
 ```jsx
 import { MapComponent } from "react-map-dashboard";
 
