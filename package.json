@@ -2,6 +2,7 @@
   "name": "react-map-dashboard-playground",
   "version": "0.1.0",
   "description": "React Map component with tooltip and other features",
+  "keywords": ["React", "map", "javascript", "dashboard"],
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
