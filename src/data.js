@@ -17,6 +17,7 @@ export const useCountriesStore = create((set) => ({
     { country: "BY", amount: 50 },
     { country: "PL", amount: 1000 },
     { country: "BR", amount: 200 },
+    { country: "IT", amount: 200 },
   ],
   changeCountries: (e) =>
     set((state) => ({
