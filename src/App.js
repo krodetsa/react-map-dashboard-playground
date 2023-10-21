@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { MapComponent } from "react-map-dashboard";
+import Sidebar from "./components/sidebar/Sidebar";
+import { MapContainer, RootContainer } from "./styles";
+import { colors, layers, useCountriesStore, useCustomTooltip } from "./data";
+import CustomTooltip from "./components/customTooltip/CustomTooltip";
 
 function App() {
+  const { countriesData } = useCountriesStore();
+  const { customTooltip } = useCustomTooltip();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RootContainer>
+      <Sidebar />
+      <MapContainer>
+        <MapComponent
+          colors={colors}
+          layers={layers}
+          countriesData={countriesData}
+          customTooltip={customTooltip ? <CustomTooltip /> : undefined}
+        />
+      </MapContainer>
+    </RootContainer>
   );
 }
 
