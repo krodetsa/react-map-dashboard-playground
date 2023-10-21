@@ -24,6 +24,7 @@ const Sidebar = () => {
             href="https://github.com/krodetsa/react-map-dashboard-playground"
             target="_blank"
             aria-label="Github"
+            rel="noreferrer"
           >
             <svg
               height="32"
@@ -39,6 +40,7 @@ const Sidebar = () => {
             href="https://www.npmjs.com/package/react-map-dashboard"
             target="_blank"
             aria-label="Npm"
+            rel="noreferrer"
           >
             <svg viewBox="0 0 780 250" aria-hidden="true">
               <path
